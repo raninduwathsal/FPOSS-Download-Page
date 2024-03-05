@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  background: white;
+  background: rgb(19, 19, 28);
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
@@ -24,24 +24,16 @@ body {
 }
 
 .logo {
-  color: rebeccapurple;
+  color: rgb(255, 255, 255);
   font-size: 32px;
   font-weight: 900;
   font-style: bold;
 }
 
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 24px;
-}
-
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: rgb(172, 172, 172);
 }
 
 ul {
@@ -57,9 +49,8 @@ ul {
   gap: 50px;
 }
 .downloadbut {
-    background-color: lightgreen;
-    padding: 10%;
-    margin: -10%;
-    border-radius: 10%;
-    border-width: 50%;
+    background-color: rgb(25, 77, 25);
+    padding: 12%;
+    margin: -15%;
+    border-radius: 6%;
 }
