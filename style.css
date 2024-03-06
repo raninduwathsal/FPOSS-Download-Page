@@ -20,7 +20,6 @@ body {
 }
 
 .profile-image {
-  background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
@@ -93,7 +92,6 @@ p{
 .hero{
   background-color: black;
   background-attachment: fixed;
-
   background-image: url(https://images.pexels.com/photos/7641148/pexels-photo-7641148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   display: flex;
@@ -101,7 +99,7 @@ p{
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
-  height: 700px;
+  padding: 25px;
 }
 .content{
   display: flex;
@@ -121,7 +119,7 @@ p{
   width: 500px;
 }
 .about{
-  height: 700px;
+  /* height: 700px; */
   background-color: #2b2b2b;
 }
 .about .contentcol, .download .contentcol{
@@ -141,23 +139,25 @@ p{
   margin-top: -60px;
 }
 .rev{
-  height: 700px;
+  /* height: 700px; */
   background-color: rgb(21, 0, 54);
 }
 .download{
   background-color: black;
-  height: 700px;
+  /* height: 700px; */
   display: flex;
   flex-direction: column;
   background-image: url(https://images.pexels.com/photos/7640905/pexels-photo-7640905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: fixed;
   opacity: 0.8;
+  padding: 50px;
 }
 
 .download h1{
-  background-color: black;
+  background-color: rgb(16, 0, 43);
   padding: 50px;
+  border-radius: 30px;
 
 }
 h2{
