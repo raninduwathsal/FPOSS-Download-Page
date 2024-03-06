@@ -15,3 +15,11 @@ Background image in Hero section
     https://www.pexels.com/photo/black-cloth-in-close-up-photography-7641148/
 Background image in download section
     Photo by Eva Bronzini: https://www.pexels.com/photo/a-blurry-background-7640905/
+
+Coins in about section
+    Photo by Pixabay: https://www.pexels.com/photo/coins-on-brown-wood-210600/
+
+Office Tv show image
+    https://www.youtube.com/watch?app=desktop&v=MExYp0pPnCQ
+
+    A fun little Easter egg for you;
