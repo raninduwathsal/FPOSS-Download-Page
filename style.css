@@ -41,11 +41,10 @@ a {
 }
 
 ul {
-  list-style-type: none;
   color: whitesmoke;
   margin: 0;
   padding: 15px;
-  gap: 16px;
+  gap: 26px;
 }
 .left, .right {
   display: flex;
@@ -63,6 +62,12 @@ h1{
 
 /* Body of the web */
 
+
+.about{
+  height: 900px;
+  background-color: #a4a4a4;
+}
+
 .downloadbut {
     background-color: rgb(25, 77, 25);
     padding: 12%;
@@ -71,6 +76,7 @@ h1{
 }
 .header ul{
   display: flex;
+  list-style: none;
 }
 p{
   color: white;
@@ -104,7 +110,7 @@ p{
   padding-top: -30px;
   background-color: rgba(67, 67, 67, 0.745);
   border-radius: 25px;
-
+}
 .contentcol{
   display: flex;
   flex-direction: column;
@@ -112,6 +118,28 @@ p{
   align-items: center;
   background-color: rgba(0, 0, 0, 0.551);
   width: 500px;
+}
+.about{
+  height: 700px;
+  background-color: #a4a4a4;
+}
+.about .contentcol, .download .contentcol{
+  width: 800px;
+  border-radius: 25px;
 
-
+}
+.contentcol ul{
+  list-style: disc;
+  font-size: 30px;
+  padding: 25px;
+  margin-left: 30px;
+}
+.rev{
+  height: 700px;
+  background-color: rgb(21, 0, 54);
+}
+.download{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
 }
