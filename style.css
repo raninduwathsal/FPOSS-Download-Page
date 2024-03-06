@@ -105,11 +105,12 @@ p{
 }
 .content{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 30px;
   padding-top: -30px;
   background-color: rgba(67, 67, 67, 0.745);
   border-radius: 25px;
+  gap: 18px;
 }
 .contentcol{
   display: flex;
@@ -134,9 +135,10 @@ p{
 }
 .contentcol ul{
   list-style: disc;
-  font-size: 30px;
-  padding: 25px;
-  margin-left: 30px;
+  font-size: 25px;
+  padding: 35px;
+  margin-left: 38px;
+  margin-top: -60px;
 }
 .rev{
   height: 700px;
@@ -164,4 +166,7 @@ h2{
 .about h1{
   background-image: url(https://images.pexels.com/photos/3069345/pexels-photo-3069345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   padding: 25px;
+}
+.about img{
+  border-radius: 25px;
 }
