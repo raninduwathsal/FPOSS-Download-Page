@@ -13,3 +13,5 @@ Currently not a real product, I made this as the official web for a future produ
 Background image in Hero section
     Eva Bronzini 
     https://www.pexels.com/photo/black-cloth-in-close-up-photography-7641148/
+Background image in download section
+    Photo by Eva Bronzini: https://www.pexels.com/photo/a-blurry-background-7640905/
