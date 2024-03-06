@@ -1,18 +1,22 @@
 
 body {
   margin: 0;
-  background: #eee;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  background: #a4a4a4;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(70, 61, 79);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
 }
 
 .header {
-  background: rgb(19, 19, 28);
+  background: rgb(17, 17, 17);
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding: 8px;
-  
+  padding: 8px;  
 }
 
 .profile-image {
@@ -38,9 +42,9 @@ a {
 
 ul {
   list-style-type: none;
-  display: flex;
+  color: whitesmoke;
   margin: 0;
-  padding: 0;
+  padding: 15px;
   gap: 16px;
 }
 .left, .right {
@@ -48,9 +52,66 @@ ul {
   align-items: center;
   gap: 50px;
 }
+h1, h2{
+  color: white;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Body of the web */
+
 .downloadbut {
     background-color: rgb(25, 77, 25);
     padding: 12%;
     margin: -15%;
     border-radius: 6%;
+}
+.header ul{
+  display: flex;
+}
+p{
+  color: white;
+  padding: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 30px;
+}
+.heroimage{
+  height: auto;
+  width: 500px;
+}
+
+.hero{
+  background-color: black;
+  background-attachment: fixed;
+
+  background-image: url(https://images.pexels.com/photos/7641148/pexels-photo-7641148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 700px;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  padding-top: -30px;
+  background-color: rgba(67, 67, 67, 0.745);
+  border-radius: 25px;
+
+.contentcol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.551);
+  width: 500px;
+
+
 }
