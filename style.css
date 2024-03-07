@@ -16,7 +16,9 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding: 8px;  
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .profile-image {
@@ -76,6 +78,7 @@ h1{
 .header ul{
   display: flex;
   list-style: none;
+  padding-top: 30px;
 }
 p{
   color: white;
